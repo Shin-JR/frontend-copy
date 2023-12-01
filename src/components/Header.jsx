@@ -52,7 +52,10 @@ function Header() {
             </>
           )}
           {auth && (
+            <>
+            <li className="nav-item"><a className="nav-link" href="/reviews">Reseñas</a></li>
             <li className="nav-item"><UserDropdown auth={ auth } setAuth={ setAuth } /></li>
+            </>
           )}
         </ul>
       </nav>
