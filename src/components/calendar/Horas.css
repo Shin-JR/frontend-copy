@@ -1,0 +1,47 @@
+p {
+    color: black !important
+}
+
+.horas-time {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black !important;
+}
+
+.horas-staff {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black !important;
+
+}
+
+.main-horas {
+    margin: 2vh;
+    display: flex;
+    flex-direction: row;
+    /* color: black; */
+    /* gap: 10vw; */
+    justify-content: space-between;
+    width: 20vw;
+    background-color: white;
+    /* font-weight: bold; */
+    border: 6px solid #FF0F7B;
+}
+
+/* dinámica sobre la selección de los días */
+.main-horas:not(.active) {
+	cursor: pointer;
+}
+
+.main-horas:hover {
+	background-color: var(--days-hover);
+}
+
+.main-horas:active {
+	background-color: var(--days-active);
+    
+}

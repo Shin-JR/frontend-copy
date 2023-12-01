@@ -1,0 +1,88 @@
+.hero {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+
+  }
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.hero-content{
+  display: flex;
+  width: 100vw;
+  position: relative;
+  transition: all .5s linear;
+}
+
+.hero-content .herobox{
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
+  
+}
+
+.hero-content .herobox:nth-child(1){
+  background-color:#c600cc;
+  background-image:linear-gradient(326deg, #c600cc 0%, #15032c 74%);
+}
+
+
+.hero-button {
+  background-color: #f50057;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #ff5983;
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh; 
+  }
+
+  .hero-content .herobox {
+    height: 40vh; 
+  }
+
+  .hero-text {
+    font-size: 0.5rem; 
+  }
+  
+  
+}
+
+
+@media (max-width: 480px) {
+  .hero {
+    height: 70vh; 
+  }
+
+  .hero-content .herobox {
+    height: 40vh; 
+  }
+
+  .hero-text {
+    font-size: 0.5rem; 
+  }
+  
+  
+}

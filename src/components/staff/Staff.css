@@ -1,0 +1,55 @@
+:root {
+  --grid-staff-background: #000123;
+}
+
+.main-div-staff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grid-staff-background);
+  
+}
+
+.title-staff {
+  /* color: white; */
+  font-size: 3rem;
+  margin-bottom: 20px;
+  
+}
+
+
+.grid-staff {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  gap: 3%; 
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-color: var(--grid-staff-background);
+  padding-left: 15%;
+  padding-top: 3%;
+  width: 80vw;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  column-width: auto;
+  
+}
+
+.custom-button {
+  background-color: #007bff;
+  border: none; 
+  border-radius: 5px;
+  padding: 10px 20px; 
+  font-weight: bold; 
+  color: azure;
+}
+
+.custom-button:hover {
+  background-color: deeppink; /* Color de fondo al pasar el cursor */
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Espacio entre los botones (ajusta según sea necesario) */
+}

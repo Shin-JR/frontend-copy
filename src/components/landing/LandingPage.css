@@ -1,0 +1,105 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    background-image: url("../../../public/img/background.png") ;
+    width: 100vw;
+    height: fit-content;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    display: flex;
+    overflow-x: hidden;
+    
+    
+    
+  }
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 1rem;
+    
+  }
+
+
+.box1 {
+  background-color: rgba(9,0,20,.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  
+}
+.imagen {
+  
+  padding-right: 5%;
+  text-align: right;
+  
+}
+.texto {
+  padding-left: 5%;
+  text-align: justify;
+  
+
+}
+.contacto{
+  background-color: #f50057;
+  color: #fff;
+  display: flex;
+  padding: 20px;
+  padding-left: 20px; 
+  text-align: justify;
+  flex: auto;
+  border-radius: 5px;
+}
+.contacto:hover {
+  background-color: #ff5983;
+}
+
+
+.box2 {
+  background-color: rgba(9,0,20,.5);
+  color: #fff;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3,20vw); 
+  grid-template-rows: repeat(3,30vh); 
+  grid-gap:5% 5%;  
+}
+.gallery1{
+  height: 30vh;
+  width: 20vw;
+  object-fit: cover;
+ 
+}
+.gallery2{
+  height: 30vh;
+  width: 20vw;
+  object-fit: cover;
+}
+.gallery3{
+  height: 30vh;
+  width: 20vw;
+  object-fit: cover;
+}
+.gallery4{
+  height: 30vh;
+  width: 20vw;
+  object-fit: cover;
+}
+.gallery5{
+  height: 30vh;
+  width: 20vw;
+  object-fit: cover;
+}
+.gallery6{
+  height: 30vh;
+  width: 20vw;
+  object-fit: cover;
+}
+
+.parrafo-landing {
+  color: white !important;
+}
+

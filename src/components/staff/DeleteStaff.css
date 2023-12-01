@@ -1,0 +1,28 @@
+select {
+    padding: 8px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 200px; 
+    background-color: #fff; 
+    color: #333; 
+  }
+  
+select:focus {
+    outline: none; 
+    border-color: #007bff; 
+  }
+.select-button-container {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+  }
+
+.info{
+  color: #ccc;
+}
+
+.parrafo-info-deletestaff {
+  color: #ccc !important;
+}
+

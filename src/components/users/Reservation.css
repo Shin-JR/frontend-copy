@@ -1,0 +1,112 @@
+/* TuArchivoDeEstilos.css */
+.reservation-page {
+    background-image: url("../../../public/img/technology.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+}
+
+.contenedor-horizontal {
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    top: 7.5%; 
+    left: 20%; 
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: stretch; 
+    justify-content: stretch; 
+}
+
+.contenedor-vertical {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.contenedor-vertical-detalles {
+  margin-top: 10px;
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  }
+
+
+h2{
+  margin-right: 60px;
+}
+.rectangulo-redondeado {
+      position: relative;
+      width: 250px;
+      height: 65px;
+      background-color: #3498db;
+      border-radius: 30px;
+      margin-top: 20px;
+      color: white;
+      transition: background-color 0.3s ease;
+      text-align: center;
+  
+      &::after {
+          content: ''; 
+          position: absolute;
+          top: 50%;
+          right: 5%;
+          transform: translateY(-50%);
+          width: 30px;
+          height: 30px;
+          background-color: #fff;
+          border-radius: 50%;
+      }
+  
+  
+      &:hover {
+          background-color: deeppink;
+      }
+}
+  
+.linea-con-texto {
+  margin-bottom: 10px; 
+  align-items: left;
+  text-align: left;
+}
+.linea {
+  border: none; 
+  border-top: 1px solid #fff; 
+  height: 10px; 
+  margin-bottom: 5px; 
+  width: 90%; 
+  margin-right: 10%; 
+}
+p{
+    color: #fff; 
+    margin: 0; 
+}
+
+.elemento-30 {
+    flex: 0 0 20%; 
+    text-align: left;
+
+  }
+.elemento-30-contenido {
+    align-self: left; 
+  }
+  
+.elemento-70{
+    flex: 0 0 80%; 
+  }
+
+  
+  
+  
+  .boton-cancelar{
+    background-color: rgb(0, 140, 255);
+    align-self: center;
+  }
+
+  .boton-cancelar:hover{
+    background-color: deeppink;
+  }

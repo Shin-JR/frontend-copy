@@ -1,0 +1,14 @@
+/* NewUser.css */
+.formulario-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con transparencia */
+    padding: 20px; /* Espaciado interior del contenedor */
+    border-radius: 10px; /* Bordes redondeados del contenedor */
+    width: 300px; /* Ancho del contenedor, ajusta según tus necesidades */
+    margin: auto; /* Centrar el contenedor en la página */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  

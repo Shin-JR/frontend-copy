@@ -1,0 +1,178 @@
+:root {
+	--month-change-background: #000123;
+	--month-change-hover: #FF0F7B;
+	--month-change-active: pink;
+
+	--days-background: white;
+	--days-hover: #FF0F7B;
+	--days-active: pink;
+
+	--days_nombre-background:#a900f4;
+
+	--grid-background: #000123;
+
+	--month-and-year-background: #FF0F7B;
+
+}
+
+
+.main-div-calendar {
+	width: 50vw; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  	background-color: #000123;
+}
+
+
+.main-grid-calendar {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	align-items: center;
+	justify-items: center;
+	text-align: center;
+	background-color: var(--grid-background);
+	border-radius: 10px;
+	gap: 10px;
+}
+
+.prev-month {
+	width: 100%;
+	grid-column: span 2; 
+	justify-content: center; 
+	align-items: center; 
+	display: flex; 
+	border-right: 1px solid;
+	/* border: 1px solid black; */
+	height: 2.5rem;
+	border-top-left-radius: 10px;
+	background-color: var(--month-change-background);
+	color: white;
+  transition: .2s;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  touch-action: manipulation;
+	border: 1px solid;
+
+}
+/* dinámica sobre botones mes */
+.prev-month:not(.active) {
+	cursor: pointer;
+}
+
+.prev-month:hover {
+	background-color: var(--month-change-hover); 
+}
+
+.prev-month:active {
+	background-color: var(--month-change-active); 
+}
+
+
+.next-month {
+	width: 100%;
+	border: 1px solid;
+	grid-column: span 2; 
+	justify-content: center; 
+	align-items: center; 
+	display: flex; 
+	border-left: 1px solid;
+	/* border: 1px solid black; */
+	height: 2.5rem;
+	border-top-right-radius: 10px;
+	background-color: var(--month-change-background);
+	color: white;
+  transition: .2s;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+}
+
+.next-month:not(.active) {
+	cursor: pointer;
+}
+
+.next-month:hover {
+	background-color: var(--month-change-hover); 
+}
+
+.next-month:active {
+	background-color: var(--month-change-active); 
+}
+
+
+.month-and-year {
+	width: 100%;
+	border: 1px solid;
+	grid-column: span 3;
+	justify-content: center; 
+	align-items: center; 
+	display: flex; 
+	height: 2.5rem;
+	background-color: var(--month-and-year-background);
+	font-weight: bold;
+	border-left: 1px solid;
+	color: white;
+	
+}
+
+
+
+.day-nombre {
+	width: 80px;
+	/* border-right: 1px solid ; */
+	justify-content: center; 
+	align-items: center; 
+	display: flex; 
+	height: 2.5rem;
+	font-weight: bold;
+	background-color: var(--days_nombre-background);
+	border-radius: 10%;
+	color: white;
+}
+
+.days {
+	width: 100%;
+	/* border-bottom: 1px solid ;
+	border-right: 1px solid ; */
+	border: 1px solid;
+	justify-content: center; 
+	align-items: center; 
+	display: flex; 
+	height: 4rem;
+	font-weight: bold;
+	border-radius: 30%;
+	/* background-color: #00035cd5; */
+	background-color: var(--days-background);
+  transition: .2s;
+
+}
+
+
+.days_out {
+	width: 100%;
+	justify-content: center; 
+	align-items: center; 
+	display: flex; 
+	height: 4rem;
+	font-weight: bold;
+	border-radius: 15px;
+	/* background-color: #a71cdf; */
+}
+
+/* dinámica sobre la selección de los días */
+.days:not(.active) {
+	cursor: pointer;
+}
+
+.days:hover {
+	background-color: var(--days-hover);
+	border-radius: 50%;
+}
+
+.days:active {
+	background-color: var(--days-active); 
+}
+
+
+
+
+
+

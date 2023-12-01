@@ -1,0 +1,64 @@
+
+.instructions-total {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 100;
+    background-color: #000123;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; 
+    color: #fff; 
+  }
+
+.instruction {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color: deeppink;
+    width: 15vw;
+    background-color: #000123;
+}
+
+.row-instructions {
+    background-color: #000123;
+    margin: 5px 25px 30px 25px;
+    color: deeppink;
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+  }
+
+.column-instructions{
+    background-color: #000123;
+    color: white;
+    margin: 100px 25px 30px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 50%; 
+  }
+
+
+.parrafo-instrucciones {
+    color: white !important; 
+    font-weight: bold; 
+  }
+  
+
+.logo-instructions {
+    padding: 0;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.logo-instructions:hover {
+    filter: drop-shadow(0 0 2em white);
+}
+.logo-instructions.react:hover {
+    filter: drop-shadow(0 0 2em white);
+}
+  

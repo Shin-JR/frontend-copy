@@ -1,0 +1,105 @@
+/* En Profile.css */
+.background-container {
+    position: relative;
+    background-image: url('./img/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+ 
+  .profile-header {
+    content: '';
+    position: relative;
+    left: 20%;
+    width: 25%;
+    height: 5%;
+    top: 5%;
+    background-color: #3498db;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-align: left;
+
+    
+  
+  } 
+
+  h2 {
+    margin-left: 25px;
+  }
+
+  .big-container {
+    content: '';
+    position: relative;
+    left: 20%; 
+    width: 60%;
+    height: 85%;
+    top: 5%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+  }
+
+  .elemento-izq {
+    display: flex;
+    flex-direction: column;
+    width: 40%; 
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  
+  .elemento-der {
+    display: flex;
+    flex-direction: column;
+    width: 60%; 
+
+  }
+
+  .linea-blanca {
+    height: 1px;
+    width: 95%;
+    background-color: #fff; 
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .label-profile {
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+
+  }
+
+  .boton-editar{
+    background-color: rgb(0, 140, 255);
+  }
+
+  .boton-editar:hover{
+    background-color: deeppink;
+  }
+
+  .reserva-rectangulo {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #3498db;
+    border-radius: 5px;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .boton-cancelar{
+    background-color: rgb(0, 140, 255);
+    
+  }
+
+  .boton-cancelar:hover{
+    background-color: deeppink;
+  }
+
+  .handleModules {
+    cursor: pointer;
+    margin: 10px;
+  }

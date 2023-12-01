@@ -1,0 +1,51 @@
+.div-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #000123;
+  margin: auto;
+  padding: 50px;
+}
+
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  border: 1px solid white;
+}
+
+.booking-horas {
+  /* background-color: #FF0F7B; */
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; 
+}
+
+.horas-disponibles-title {
+  margin-top: 15vh;
+}
+
+
+.booking-horas-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-booking {
+  margin: auto;
+  max-width: 800px;
+}
+

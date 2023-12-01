@@ -1,0 +1,15 @@
+/* Login.css */
+.formulario-container {
+    background-color: rgba(255, 0, 128, 0.8); /* Fondo blanco con transparencia */
+    padding: 15px; /* Espaciado interior del contenedor */
+    border-radius: 10px; /* Bordes redondeados del contenedor */
+    width: 380px; /* Ancho del contenedor, ajusta según tus necesidades */
+    margin: auto; /* Centrar el contenedor en la página */
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  

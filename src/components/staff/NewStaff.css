@@ -1,0 +1,51 @@
+
+.main-div-staff {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    color: #ccc; 
+    font-weight: bold; 
+
+  }
+  
+  form {
+    width: 300px; 
+    margin: 20px auto; 
+  }
+  
+  form input, 
+  form textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin: 5px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+
+  }
+form input:hover {
+    background-color: deeppink; 
+    border-color: deeppink; 
+  }
+  
+  form button {
+    width: 50%; 
+    padding: 10px;
+    background-color: #007bff; 
+    color: #fff; 
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+  
+  form button:hover {
+    background-color: deeppink;
+  }
+
+a {
+color: azure; 
+}
+    

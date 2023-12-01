@@ -1,0 +1,119 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.reviews-page {
+    background-image: url("../../../public/img/keyboard.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
+
+.contenedor-vertical-reviews{
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Para ocupar la altura completa del elemento1 */
+}
+.elemento1 {
+    margin-top: 10px;
+    height: 60%;
+    background-color: rgba(17, 53, 140, 0.7);
+    color: #fff;
+    width: 40%;
+
+    border-radius: 15px;
+    position: relative; /* Para posicionar el botón correctamente */
+}
+
+.p{
+    align-self: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Para ocupar la altura completa del elemento1 */
+}
+
+button {
+    margin-top: 10px; /* Ajusta según sea necesario */
+}
+
+.elemento2 {
+    margin-top: 15px;
+    height: 5%;
+    background-color: rgba(17, 53, 140, 0.7);; /* Color de fondo rojo para ilustrar */
+    color: #000; /* Cambiado el color de texto para que sea visible en el fondo blanco */
+    margin-bottom: 10;
+    width: 35%;
+    text-align: center;
+    color: #fff;
+
+    /* Centrar a la izquierda pero solo ocupando el 50% de la pantalla */
+    margin-left: 10%;
+    transform: translateX(-50%);
+}
+
+
+.elemento3 {
+    height: 55%;
+    background-color: rgba(17, 53, 140, 0.7); /* Color de fondo rojo para ilustrar */
+    color: #fff; /* Color de texto blanco para ilustrar */
+    margin-bottom: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+}
+
+.review{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.icono-calificacion {
+    margin-left: 30px;
+    flex:2
+}
+
+.box-calificacion {
+    flex: 75%;
+    margin-right: 50px;
+}
+
+
+.header-calificacion {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.comentario{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+
+.star {
+    width: 0;
+    height: 0;
+    
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #ffD700; /* Color de la estrella (amarillo en formato hexadecimal) */
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
