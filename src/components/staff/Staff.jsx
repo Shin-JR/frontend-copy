@@ -16,17 +16,19 @@ function Staff() {
   const [staff, setStaff] = useState([]);
 
   useEffect(() => {
-    const decodedToken = jwtDecode(token);
-    setIsAdmin(decodedToken.scope.includes("admin"))
-    axios.get(API_URL + '/staff')
-      .then((response) => {
-        const data = response.data
-        setStaff(data)
-        console.log(data)
-      })
-      .catch((error) => {
-        console.log(error)
-      })
+    if (token && token !== 'null') {
+      const decodedToken = jwtDecode(token);
+      setIsAdmin(decodedToken.scope.includes("admin"))
+      axios.get(API_URL + '/staff')
+        .then((response) => {
+          const data = response.data
+          setStaff(data)
+          console.log(data)
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+    }
   }, [token])
 
 
